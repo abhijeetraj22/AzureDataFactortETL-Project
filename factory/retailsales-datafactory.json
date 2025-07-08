@@ -1,0 +1,9 @@
+{
+	"name": "retailsales-datafactory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "826dfe60-0103-4a3a-a924-f4c02e63b26d",
+		"tenantId": "22b63c14-a46a-4143-89f4-29b7af2583b4"
+	}
+}

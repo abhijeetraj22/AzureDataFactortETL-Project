@@ -1,0 +1,42 @@
+{
+	"name": "SalesStagingSQL_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseRS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "sale_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "product_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "store_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "quantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "sale_date",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Sales_Staging"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
