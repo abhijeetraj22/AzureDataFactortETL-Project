@@ -2,7 +2,9 @@
 	"name": "retailsales-datafactory",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true"
+			"PipelineBillingEnabled": "true",
+			"factoryStagingLSReferenceName": "AzureBlobStorageRS",
+			"factoryStagingLSType": "LinkedServiceReference"
 		}
 	},
 	"location": "eastus2",
