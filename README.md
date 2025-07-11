@@ -104,6 +104,14 @@ This will create:
 4. Enable `trigger1.json` to schedule automation
 
 ---
+## 📸 Azure Data Factory
+
+<p align="center">
+  <img src="RetailSalesETL-1.JPG" alt="Azure Pipeline Architecture" width="800"/>
+  <br>
+</p>
+
+---
 
 ## 📊 Key Components
 
