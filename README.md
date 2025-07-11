@@ -20,6 +20,13 @@ Build an end-to-end **ETL solution** that:
 - Uses **ADF Pipelines and Triggers** to automate the process
 
 ---
+## 🧭 Architecture Overview
+
+<p align="center">
+  <img src="Archt.png" alt="Azure Pipeline Architecture" width="800"/>
+</p>
+
+---
 
 ## 🗂️ Folder Structure
 ```bash
@@ -43,9 +50,6 @@ Build an end-to-end **ETL solution** that:
 └───trigger                           
     └── trigger1.json                  # Time-based or scheduled trigger for running LoadSalespipeline
 ```
-
-## 🧭 Architecture Overview
-
 
 ---
 
